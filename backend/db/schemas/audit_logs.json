@@ -1,0 +1,14 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["user_id", "action", "entity", "entity_id", "timestamp"],
+    "properties": {
+      "user_id": { "bsonType": "objectId" },
+      "action": { "bsonType": "string" },
+      "entity": { "bsonType": "string" },
+      "entity_id": { "bsonType": "objectId" },
+      "details": { "bsonType": "object" },
+      "timestamp": { "bsonType": "date" }
+    }
+  }
+}

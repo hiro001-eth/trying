@@ -1,0 +1,11 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["key", "value", "updated_at"],
+    "properties": {
+      "key": { "bsonType": "string" },
+      "value": { "bsonType": "object" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}
